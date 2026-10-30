@@ -35,3 +35,7 @@ GitHub-style platforms look simple from the outside, but under the hood they com
 **Observability:** Micrometer, Prometheus, Grafana, OpenTelemetry
 **Testing:** JUnit 5, AssertJ, Mockito, Testcontainers, RestAssured, ArchUnit
 **Frontend (planned):** Vue 3, Vuetify 3, TypeScript, Vite, Pinia
+
+## License
+
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
