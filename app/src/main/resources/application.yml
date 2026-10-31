@@ -12,3 +12,8 @@ management:
     health:
       probes:
         enabled: true
+
+gitforge:
+  storage:
+    root: ./data/repos
+    max-push-size: 2GB
