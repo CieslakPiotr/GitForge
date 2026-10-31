@@ -1,12 +1,17 @@
+# Zed
+.zed/
+
+# Java language server (used by Zed's Java extension)
+.project
+.classpath
+.settings/
+bin/
+
 # Gradle
 .gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
-
-# IntelliJ
-.idea/
-out/
-*.iml
+.kotlin/
 
 # Secrets
 .env
