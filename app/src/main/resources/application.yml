@@ -17,3 +17,9 @@ gitforge:
   storage:
     root: ./data/repos
     max-push-size: 2GB
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/gitforge
+    username: gitforge
+    password: ${DB_PASSWORD:}
