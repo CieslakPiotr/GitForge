@@ -16,3 +16,7 @@ dependencies {
     testImplementation(libs.spring.modulith.starter.test)
 
 }
+
+tasks.bootJar {
+    archiveFileName = "GitForge.jar"
+}
