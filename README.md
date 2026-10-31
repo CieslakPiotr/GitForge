@@ -1,6 +1,6 @@
 # GitForge
 
-A self-hosted Git hosting platform built with Java 21 and Spring Boot 3: real `git clone` and `git push` over HTTPS, plus repositories, pull requests, code review and issues on top.
+A self-hosted Git hosting platform built with Java 21 and Spring Boot 4: real `git clone` and `git push` over HTTPS, plus repositories, pull requests, code review and issues on top.
 
 ## About this project
 
@@ -29,7 +29,7 @@ GitHub-style platforms look simple from the outside, but under the hood they com
 
 ## Tech stack
 
-**Backend:** Java 21 (virtual threads), Spring Boot 3, Spring Security, Spring Data JPA, Spring Modulith, Eclipse JGit, Flyway, MapStruct
+**Backend:** Java 21 (virtual threads), Spring Boot 4, Spring Security, Spring Data JPA, Spring Modulith, Eclipse JGit, Flyway, MapStruct
 **Data:** PostgreSQL 16, Redis 7 (locks, cache, rate limits), MinIO (S3-compatible object storage)
 **Infrastructure:** Docker, Docker Compose, nginx, GitHub Actions
 **Observability:** Micrometer, Prometheus, Grafana, OpenTelemetry

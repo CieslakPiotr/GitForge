@@ -7,7 +7,7 @@ dependencies {
     implementation(platform(libs.spring.boot.bom))
     implementation(platform(libs.spring.modulith.bom))
     implementation(project(":common"))
-    implementation(libs.spring.boot.starter.web)
+    implementation(libs.spring.boot.starter.webmvc)
     implementation(libs.spring.boot.starter.actuator)
     implementation(libs.spring.modulith.starter.core)
     testImplementation(libs.archunit.junit5)
