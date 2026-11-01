@@ -4,6 +4,7 @@ services:
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/gitforge
       SPRING_DATASOURCE_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env}
+      SPRING_DATA_REDIS_HOST: redis
     ports:
       - "127.0.0.1:8080:8080"
     volumes:

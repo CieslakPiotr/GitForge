@@ -9,11 +9,9 @@ import java.net.http.HttpResponse;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
-import org.springframework.context.annotation.Import;
 
-@Import(TestDatabaseConfig.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class OpenApiTest {
+class OpenApiTest extends IntegrationTest {
 
     @LocalServerPort int port;
 

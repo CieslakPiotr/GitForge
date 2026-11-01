@@ -17,6 +17,7 @@ dependencies {
     implementation(libs.spring.boot.starter.data.jpa)
     implementation(libs.spring.boot.starter.validation)
     implementation(libs.springdoc.openapi.starter.webmvc.ui)
+    implementation(libs.spring.boot.starter.data.redis)
 
     testImplementation(libs.spring.boot.testcontainers)
     testImplementation(libs.testcontainers.postgresql)
