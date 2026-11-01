@@ -30,7 +30,7 @@ GitHub-style platforms look simple from the outside, but under the hood they com
 ## Tech stack
 
 **Backend:** Java 21 (virtual threads), Spring Boot 4, Spring Security, Spring Data JPA, Spring Modulith, Eclipse JGit, Flyway, MapStruct
-**Data:** PostgreSQL 16, Redis 7 (locks, cache, rate limits), MinIO (S3-compatible object storage)
+**Data:** PostgreSQL 17, Redis 7 (locks, cache, rate limits)
 **Infrastructure:** Docker, Docker Compose, nginx, GitHub Actions
 **Observability:** Micrometer, Prometheus, Grafana, OpenTelemetry
 **Testing:** JUnit 5, AssertJ, Mockito, Testcontainers, RestAssured, ArchUnit
