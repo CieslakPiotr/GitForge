@@ -16,6 +16,7 @@ dependencies {
     runtimeOnly(libs.postgresql)
     implementation(libs.spring.boot.starter.data.jpa)
     implementation(libs.spring.boot.starter.validation)
+    implementation(libs.springdoc.openapi.starter.webmvc.ui)
 
     testImplementation(libs.spring.boot.testcontainers)
     testImplementation(libs.testcontainers.postgresql)
