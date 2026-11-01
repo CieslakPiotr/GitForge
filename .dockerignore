@@ -1,7 +1,6 @@
 .git
 .gradle
 .kotlin
-.idea
 .zed
 **/build
 data
