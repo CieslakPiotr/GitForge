@@ -1,5 +1,7 @@
 package GitForge.repo;
 
+import java.util.Optional;
+
 import java.time.Instant;
 
 import org.springframework.stereotype.Service;
@@ -18,4 +20,6 @@ public class RepoService {
         var saved = repos.save(new RepoEntity(null, name, "refs/heads/main", Instant.now()));
         return new RepoInfo(saved.id(), saved.name(), saved.head(), saved.createdAt());
     }
+
+    public Optional<RepoInfo> findByName(String name) {}
 }
